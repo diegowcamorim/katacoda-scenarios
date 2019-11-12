@@ -1,0 +1,67 @@
+{
+  "title": "02. Kubernetes - Configurações e Armazenamento",
+  "description": "Conceituação e exemplos práticos de configmaps, secrets e volumes.",
+  "difficulty": "Intermediate",
+  "time": "2 hours",
+  "details": {
+    "steps": [
+      {
+        "title": "Resource: Configmap",
+        "text": "resource-configmap.md"
+      },
+      {
+        "title": "Utilizando configmap em containers",
+        "text": "resource-configmap-pod.md"
+      },
+      {
+        "title": "Associando todas chaves de configmap em containers",
+        "text": "resource-configmap-full-pod.md"
+      },
+      {
+        "title": "Criando arquivos de configuração via volume em containers",
+        "text": "resource-configmap-volume.md"
+      },
+      {
+        "title": "Resource: Secret",
+        "text": "resource-secret.md"
+      },
+      {
+        "title": "Associando secrets aos containers",
+        "text": "resource-secret-pod.md"
+      },
+      {
+        "title": "Associando secrets aos containers via volume",
+        "text": "resource-secret-volume.md"
+      },
+      {
+        "title": "Volumes",
+        "text": "resource-volume.md"
+      },
+      {
+        "title": "Associando um volume persistente a uma POD",
+        "text": "resource-pvc-pod.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "start-course.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "*.yaml",
+          "target": "/root/resources"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running"
+  }
+}

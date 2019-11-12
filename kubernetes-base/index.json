@@ -1,0 +1,99 @@
+{
+  "title": "01. Kubernetes - Base",
+  "description": "Conceitos básicos de Kubernetes com explições e exemplos práticos.",
+  "difficulty": "Beginner/Intermediate",
+  "time": "3 hours",
+  "details": {
+    "steps": [
+      {
+        "title": "Evolução da topologia de infra",
+        "text": "evolucao-topologia-infra.md"
+      },
+      {
+        "title": "Porque Kubernetes?",
+        "text": "orquestrador-container.md"
+      },
+      {
+        "title": "Arquitetura básica de um cluster Kubernetes",
+        "text": "arquitetura-basica.md"
+      },
+      {
+        "title": "Demonstração de uso do kubectl",
+        "text": "kubectl.md"
+      },
+      {
+        "title": "Resource: Namespace",
+        "text": "resource-namespace.md"
+      },
+      {
+        "title": "Resource: Deployment",
+        "text": "resource-deployment.md"
+      },
+      {
+        "title": "Resource: Service",
+        "text": "resource-service.md"
+      },
+      {
+        "title": "Resource: POD e Environment Variables",
+        "text": "resource-pod.md"
+      },      
+      {
+        "title": "Realizar deploy de uma aplicação de exemplo",
+        "text": "app-deploy.md"
+      },
+      {
+        "title": "Explorar informações sobre a apliçação instalada no cluster",
+        "text": "app-explore.md"
+      },
+      {
+        "title": "Explorar dashboard kubernetes",
+        "text": "kubernetes-dashboard.md"
+      } 
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "start-course.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "*.yaml",
+          "target": "/root/resources"
+        },
+        {
+          "file": "*.png",
+          "target": "/root"
+        }
+      ],
+      "host02": [
+        {
+          "file": "*.yaml",
+          "target": "/root/resources"
+        },
+        {
+          "file": "*.png",
+          "target": "/root"
+        }
+      ],
+      "client": [
+        {
+          "file": "*.yaml",
+          "target": "/root/resources"
+        },
+        {
+          "file": "*.png",
+          "target": "/root"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-iframe"
+  },
+  "backend": {
+    "imageid": "minikube-running"
+  }
+}
