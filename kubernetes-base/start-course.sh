@@ -1,6 +1,7 @@
 #!/bin/sh
 
-mkdir -p /root/resources && cd /root/resources && wget https://raw.githubusercontent.com/diegowcamorim/katacoda-scenarios/master/kubernetes-base/assets/workloads.yaml && wget https://raw.githubusercontent.com/diegowcamorim/katacoda-scenarios/master/kubernetes-base/assets/services.yaml
+mkdir -p /root/resources
+wget -P /root/resources/ https://raw.githubusercontent.com/diegowcamorim/katacoda-scenarios/master/kubernetes-base/assets/workloads.yaml && wget -P /root/resources/ https://raw.githubusercontent.com/diegowcamorim/katacoda-scenarios/master/kubernetes-base/assets/services.yaml
 
 launch.sh
 
