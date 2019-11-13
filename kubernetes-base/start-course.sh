@@ -1,5 +1,7 @@
 #!/bin/sh
 
+mkdir -p /root/resources
+
 launch.sh
 
 minikube start
